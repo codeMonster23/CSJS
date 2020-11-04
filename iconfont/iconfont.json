@@ -1,0 +1,58 @@
+{
+  "id": "1850981",
+  "name": "人社库竞赛",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "191609",
+      "name": "QQ",
+      "font_class": "qq",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "503537",
+      "name": "单选",
+      "font_class": "iconfontoptionbutton",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "3408274",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "10891477",
+      "name": "单选选中",
+      "font_class": "Unchecked",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12851119",
+      "name": "电  话",
+      "font_class": "dianhua",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3982784",
+      "name": "多选框 未选",
+      "font_class": "duoxuankuangweixuan",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "14222069",
+      "name": "多选框",
+      "font_class": "duoxuankuang1",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jQuery-v1.11.1.js"></script>
+    <script src="js/distpicker.data.js"></script>
+	
+    <script src="js/main.js"></script>
+    <script src="js/register.js"></script>
+    <title>财税竞赛</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header minWidth1200 ">
+        <div class="width1200pxAuto clearfix">
+            <img src="images/logo.png" alt="">
+            <div class="nav left">
+                <a href="javascript:;">首页</a><a href="javascript:;">活动介绍</a><a href="javascript:;">竞赛答题</a><a href="javascript:;">学习月</a><a href="javascript:;">知识充电站</a><a href="javascript:;">历届回顾</a>
+            </div>
+            <a href="javascript:;" class="h-a register right">注册</a>
+            <a href="javascript:;" class="h-a login right">登录</a>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="minWidth1200 intro-banner"></div>
+    <div class="minWidth1200 login-register">
+        <div class="wrap width1160pxAuto">
+            <div class="title">- 账号注册 -</div>
+            <div class="register">
+                <!-- 为了保持条目之间距离一致，全部用tip-error隔开，可以作为提示也可以作为报错，无提示无报错内容为空即可 -->
+              <form action="">      
+                <div class="row clearfix">
+                    <label><span>*</span>用户名：</label>
+                    <input id="username" type="text" autocomplete="off" placeholder="可使用邮箱用作用户名">
+                </div>
+                <p class="tip-error">请输入6-64位字符，支持字母、数字及“_” 组合</p>
+                <div class="row clearfix">
+                    <label><span>*</span>密码：</label>
+                    <input id="psw" autocomplete="off" type="password" placeholder="请输入密码">
+                </div>
+                <p class="tip-error">请输入6-20位数字、字母或常用符号，字母区分大小写</p>
+                <div class="row clearfix">
+                    <label><span>*</span>确认密码：</label>
+                    <input id="repsw" autocomplete="off" type="password" placeholder="请输入密码">
+                </div>
+                <p class="tip-error"></p>
+                <div class="row clearfix">
+                    <label><span>*</span>邮箱：</label>
+                    <input id="email" autocomplete="off" type="text" placeholder="请输入邮箱">
+                </div>
+                <p class="tip-error"></p>
+                <div class="row clearfix">
+                    <label><span>*</span>手机号：</label>
+                    <input id="phonenum" autocomplete="off" type="text" placeholder="请输入手机号码">
+                </div>
+                <p class="tip-error"></p>
+                <div class="row clearfix">
+                    <label><span>*</span>所在单位：</label>
+                    <input id="company" autocomplete="off" type="text" placeholder="请填写参赛人员实际工作单位
+                    ">
+                </div>
+                <p class="tip-error"></p>
+                <div class="row clearfix">
+                    <label><span>*</span>组织单位：</label>
+                    <div class="left" id="distpicker5">
+                        <select id="province" data-province="---- 选择省 ----"></select>
+                        <select class="city" data-city="---- 选择市 ----"></select>
+                        <select class="area" data-district="---- 选择区 ----"></select>
+                      </div>
+                    <input type="text" id="org"  autocomplete="off" class="special" placeholder="请填写组织单位">
+                </div>
+                <p class="tip-error"></p>
+                <p class="hint">请准确填写所在区域组织单位。<br>例：组织单位为山东省财政厅，省份选择山东省，市、区县无需选择，组织单位填写财政厅，其他同理。</p>
+              </form>
+              <a href="javascript:;" class="r-btn">完成注册</a>
+              <p class="safe">（说明：活动委员会将会严格对参赛的个人信息保密，请放心填写。）</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer minWidth1200">
+        <div class="width1200pxAuto">
+            <div class="f1 left">
+                <div class="col1 left">友情链接： </div>
+                <div class="col2 left">
+                   <p><a href="http://www.mof.gov.cn/index.htm" target="_blank">中华人民共和国财政部</a></p> 
+                   <p><a href="http://www.chinatax.gov.cn/" target="_blank">国家税务总局</a></p> 
+                   <p><a href="http://www.zgczxh.org/" target="_blank">中国财政学会</a></p> 
+                   <p><a href="https://www.cnki.net/" target="_blank">中国知网</a></p> 
+                </div>
+                <div class="col3 left">
+                    <p><a href="https://czyw.cnki.net/" target="_blank">财政业务知识服务平台</a></p> 
+                    <p><a href="https://czjc.cnki.net/" target="_blank">财政领导决策信息服务平台 </a></p> 
+                    <p><a href="https://tax.cnki.net" target="_blank">中国税收知识总库</a></p> 
+                    <p><a href="https://sk.cnki.net/#/" target="_blank">知识服务超市</a></p>
+                 </div>
+            </div>
+            <div class="f2 left"></div>
+            <div class="f3 left">
+                <p>中国知网·财税事业部</p>
+                <p>联系电话：010-62969002-8322</p>
+                <p>邮　　箱：zw@cnki.net</p>
+                <p>中国知网提供技术支持</p>　
+            </div>
+            <div class="f4 left"><img src="images/ewm.jpg" alt=""></div>
+        </div>
+    </div>
+    <script src="js/distpicker.js"></script>
+</body>
+</html>

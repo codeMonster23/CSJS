@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* 文章列表类 */
+.mod-artlist .tit, .mod-artlist-media-d .media-tit { height: 30px; line-height: 30px; font-size: 16px; }
+/* 一级大标题样式一  可添加到模块自定义样式名中*/
+.mod-bigtitle-s1 { position: relative; padding-top: 28px; }
+
+.mod-bigtitle-s1 .mod-artlist + .mod-artlist { padding-top: 28px; }
+
+.mod-artlist-tab-style1.mod-bigtitle-s1 { padding-top: none; }
+
+.mod-c2.mod-artlist-media-h.mod-bigtitle-s1 .mod-artlist { padding-top: 28px; }
+
+/* 列表-基础列表-公共样式 */
+.mod-artlist .tit {display: block;  width: 198px; height: 38px;line-height: 38px; text-align: center;font-size: 18px; color: #0064d7; border: 1px solid #0064d7; font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", SimHei, "宋体", simsun, sans-serif; margin: 0 auto 20px;  }
+
+.mod-artlist .tit .icon { width: 11px; height: 18px; background: url(../images/bg-tit/bt-title6X18.png) left center no-repeat; }
+
+.mod-artlist .tit .more {position: absolute; font-size: 15px; color: #666666; left: 203px; bottom: -30px; line-height: 18px;}
+.mod-artlist .tit .more:hover{color: #f29754;}
+.mod-artlist .item { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-height: 28px; line-height: 28px; }
+
+.mod-artlist .item .icon { }
+
+.mod-artlist .item-more { min-height: 28px; line-height: 28px; text-align: right; padding-right: 10px; }
+
+.mod-artlist .article-name strong { font-weight: 400; }
+
+.mod-artlist .article-name:hover strong { color: #f70; }
+
+.mod-artlist .article-name:hover .icon { background-color: #f70; }
+
+/* 列表- 基础列表 子栏目格式为空*/
+.mod-artlist-default .item { padding: 0 10px; }
+
+.mod-artlist-default strong { padding-right: 10px; }
+
+.mod-artlist-default .item > p { display: none; }
+
+/* 列表- 基础列表 子栏目格式1个字段*/
+.mod-artlist-field1 .item {  float: none; padding-right: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 28px; padding-left: 24px; }
+.mod-artlist-field1 .item .date-more{display: none;}
+.mod-artlist-field1 .item strong { padding-right: 10px; }
+
+.mod-artlist-field1 .item .more { position: absolute; top: 0; right: 10px; }
+
+.mod-artlist-field1 .item .author { position: absolute; top: 0; right: 10px; width: 72px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-indent: 0; text-align: right; font-size: 12px; cursor: default; }
+
+.mod-artlist-field1 .article-name { display: block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 35px; font-size: 15px; color: #666666;}
+.mod-artlist-field1 .article-name:hover{color: #f29754;}
+.mod-artlist-field1 .date { position: absolute; top: 0; right: 10px; width: 80px; overflow: hidden; height: 28px; line-height: 28px; text-indent: 0; }
+
+/* 列表- 基础列表 子栏目格式2个字段*/
+.mod-artlist-field2 .item { position: relative; }
+
+.mod-artlist-field2 .item strong { padding-right: 10px; }
+
+.mod-artlist-field2 .author { position: static; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: default; }
+
+.mod-artlist-field2 .article-name { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-right: 150px; padding-left: 10px; }
+
+.mod-artlist-field2 .date-more { position: absolute; top: 0; right: 0; width: 150px; text-align: right; }
+
+.mod-artlist-field2 .date-more .more { position: static; padding: 0 10px; }
+
+.mod-artlist-field2 .date-more .date { position: static; width: 80px; text-align: left; overflow: hidden; }
+
+.mod-artlist-field2 .author-date { position: absolute; top: 0; right: 0; width: 150px; text-align: right; }
+
+.mod-artlist-field2 .author-date .date { position: static; width: 80px; overflow: hidden; margin-right: 10px; }
+
+.mod-artlist-field2 .author-date .author { position: static; width: 52px; cursor: default; text-align: left; margin-right: 10px; }
+
+.mod-artlist-field2 .author-more { position: absolute; top: 0; right: 0; width: 150px; text-align: right; }
+
+.mod-artlist-field2 .author-more .author { position: static; width: 72px; cursor: default; text-align: left; }
+
+.mod-artlist-field2 .author-more .more { position: static; padding: 0 10px; }
+
+/* 列表-摘要列表-选项卡*/
+.mod-artlist-summary-title { position: relative; z-index: 2; height: 34px; line-height: 34px; padding-left: 11px; font-size: 16px; color: #0089FF; font-weight: 500; border-bottom: 1px solid #ddd; font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", SimHei, "宋体", simsun, sans-serif; background: url(../images/bg-tit/bt-title6X18.png) left center no-repeat; }
+
+.mod-artlist-summary-s1 { padding: 10px 16px 6px; }
+
+.mod-artlist-summary-s1 .sum-tit { text-align: right; font-size: 14px; margin-bottom: 8px; }
+
+.mod-artlist-summary-s1 .sum-tit a { line-height: 20px; display: inline-block; vertical-align: middle; *zoom: 1; *display: inline; padding-left: 10px; font-weight: 400; margin-bottom: 2px; }
+
+.mod-artlist-summary-s1 .sum-tit a:hover { text-decoration: none; }
+
+.mod-artlist-summary-s1 .sum-tit .cur { display: inline-block; color: #0089FF; }
+
+.mod-artlist-summary-s1 .sum-con { position: relative; display: none; }
+
+.mod-artlist-summary-s1 .sum-con > ul { clear: left; padding-top: 6px; }
+
+.mod-artlist-summary-s1 .pic-link img { float: left; width: 30%; min-width: 142px; margin-right: 20px; }
+
+.mod-artlist-summary-s1 .cur { display: block; }
+
+.mod-artlist-summary-s1 .sum-text { position: relative; }
+
+.mod-artlist-summary-s1 .sum-text-tit { line-height: 20px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: default; }
+
+.mod-artlist-summary-s1 .sum-text .txt { line-height: 24px; text-align: justify; }
+
+.mod-artlist-summary-s1 .sum-text .detail { position: absolute; right: 0; bottom: 4px; font-size: 12px; background: #fff; padding-left: 6px; color: #0089FF; }
+
+.mod-artlist-summary-s1 .sum-text .detail:hover { text-decoration: none; color: #f70; }
+
+.mod-artlist-summary-s1 .item { padding-left: 0; }
+
+.mod-artlist-summary-s1 .artlist-more { position: absolute; right: 0; bottom: 4px; font-size: 12px; }
+
+.mod-artlist-summary-s1 .artlist-more:hover { text-decoration: none; }
+
+/* 列表-摘要列表-单模块*/
+.mod-artlist-summary-single { padding: 0; }
+
+.mod-artlist-summary-single .sum-tit { height: 34px; line-height: 34px; padding-left: 11px; font-size: 16px; color: #0089FF; font-weight: 500; border-bottom: 1px solid #ddd; font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", SimHei, "宋体", simsun, sans-serif; background: url(../images/bg-tit/bt-title6X18.png) left center no-repeat; text-align: left; margin-bottom: 0; }
+
+.mod-artlist-summary-single .sum-tit a { display: block; width: 100%; }
+
+.mod-artlist-summary-single .sum-con { padding: 10px 16px 6px; }
+
+.mod-artlist-summary-single .sum-con > ul { padding-top: 6px; }
+
+.mod-artlist-summary-single .sum-text-tit { display: none; }
+
+.mod-artlist-summary-single .artlist-more { right: 16px; }
+
+/*列表-摘要列表-全摘要 */
+.mod-artlist-summary-all .sum-tit, .mod-artlist-summary-all-img .sum-tit { height: 34px; line-height: 34px; font-weight: normal; font-size: 19px; color: #0089FF; border-bottom: 1px solid #ddd; font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", SimHei, "宋体", simsun, sans-serif; background: url(../images/bg-tit/bg-tit-art.png) repeat-x bottom; text-align: left; margin-bottom: 20px; }
+
+.mod-artlist-summary-all .sum-tit a, .mod-artlist-summary-all-img .sum-tit a { padding-left: 15px; background: #fff url(../images/bg-tit/bt-title6X18.png) left center no-repeat; float: left; padding-right: 10px; line-height: 34px; }
+
+.mod-artlist-summary-all .sum-tit .cur, .mod-artlist-summary-all-img .sum-tit .cur { color: #0089FF; }
+
+.mod-artlist-summary-all .sum-con-bg, .mod-artlist-summary-all-img .sum-con-bg { background: #fafafa; margin-top: 10px; }
+
+.mod-artlist-summary-all .pic-link, .mod-artlist-summary-all-img .pic-link { float: right; margin-left: 4%; }
+
+.mod-artlist-summary-all .pic-link img, .mod-artlist-summary-all-img .pic-link img { width: 100%; }
+
+.mod-artlist-summary-all .txt, .mod-artlist-summary-all-img .txt { line-height: 24px; text-align: justify; }
+
+.mod-artlist-summary-all .sum-text, .mod-artlist-summary-all-img .sum-text { padding: 15px; min-height: 142px; }
+
+.mod-artlist-summary-all .sum-text-tit, .mod-artlist-summary-all-img .sum-text-tit { font-size: 16px; margin-bottom: 15px; font-weight: bold; }
+
+.mod-artlist-summary-all .sum-text-con .tips, .mod-artlist-summary-all-img .sum-text-con .tips { margin-top: 10px; font-size: 12px; }
+
+.mod-artlist-summary-all .sum-text-con .tips span, .mod-artlist-summary-all-img .sum-text-con .tips span { margin-right: 30px; }
+
+/*列表-摘要列表-单模块- 图片纵向排列 */
+.mod-artlist-summary-horizontal .pic-link { display: block; max-height: 260px; margin-bottom: 15px; overflow: hidden; }
+
+.mod-artlist-summary-horizontal .pic-link > img { float: none; width: 100%; min-width: auto; margin: 0 auto; }
+
+.mod-artlist-summary-horizontal .sum-text .txt { text-indent: 2em; }
+
+/* 列表-摘要列表-折叠面板*/
+.mod-artlist-summary-accordion { position: relative; }
+
+.mod-artlist-summary-accordion .mod-artlist-summary-title { margin-bottom: 12px; }
+
+.mod-artlist-summary-accordion .sitem { position: relative; height: 28px; padding: 0 34px  0 14px; border-style: solid; border-width: 1px; border-color: transparent; overflow: hidden; }
+
+.mod-artlist-summary-accordion .sitem > h4 { font-weight: 400; font-family: Arial, Helvetica, "微软雅黑", "Microsoft YaHei", SimHei, "宋体", simsun, sans-serif; font-size: 14px; line-height: 28px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.mod-artlist-summary-accordion .sitem > h4 a { color: #666; }
+
+.mod-artlist-summary-accordion .sitem > h4 a:hover { color: #f70; }
+
+.mod-artlist-summary-accordion .sitem .icon-opt { position: absolute; top: 0; right: 8px; width: 24px; height: 28px; background: url(../images/sprite-icon-accordion.png) 0 -50px no-repeat; cursor: pointer; }
+
+.mod-artlist-summary-accordion .mod-open { height: auto; border-color: #55a8fd; padding: 9px 34px  0 14px; margin-bottom: 5px; }
+
+.mod-artlist-summary-accordion .mod-open .icon-opt { top: 9px; background-position: 0 0; }
+
+.mod-artlist-summary-accordion .mod-open h4 { color: #51585e; font-weight: 700; }
+
+.mod-artlist-summary-accordion .mod-open h4 a { color: #51585e; }
+
+.mod-artlist-summary-accordion .mod-open h4 a:hover { color: #f70; }
+
+.mod-artlist-summary-accordion .sitem-custom > span { line-height: 22px; font-size: 13px; color: #a1a1a1; padding-right: 8px; }
+
+.mod-artlist-summary-accordion .sum-text-con { border-top: 1px dashed #dcdcdc; font-family: "宋体", simsun, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 24px; padding-bottom: 19px; }
+
+.mod-artlist-summary-accordion .item-more { position: absolute; top: 0; right: 0; line-height: 34px; }
+.mod-artlist-field1 .item .date-more{display: none;}
+/* 整刊报纸 */
+.mod-imgs { position: relative; top: 0; left: 0; z-index: 1; overflow: hidden; }
+
+.mod-imgs .mod-tab-head { position: relative; }
+
+.mod-imgs .mod-tab-head .more { position: absolute; top: 0; right: 0; line-height: 25px; visibility: hidden; _display: none; padding-right: 10px; }
+
+.mod-imgs .mod-tab-head li.cur .more { visibility: visible; _display: block; }
+
+.mod-imgs .btnbox .btn { position: absolute; top: 0; z-index: 96; width: 34px; height: 100%; background: url(../images/bg-imgs-btn.png) 0px center no-repeat; font-size: 0; line-height: 0; text-indent: -200%; overflow: hidden; cursor: pointer; border: none; -webkit-box-shadow: none; box-shadow: none; }
+
+.mod-imgs .btnbox .btn-l { left:15px; background-position: 10px center; }
+
+.mod-imgs .btnbox .btn-r { right:15px; background-position: -24px center; }
+
+.mod-imglist-wrap { position: relative; width: 100%; margin: 0 auto; overflow: hidden; -webkit-touch-callout: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+.mod-imglist-inner { position: relative; top: 0; left: 0; margin-top: 0; width: 10000px; padding-left: 20px;}
+
+.mod-imglist-inner .item { float: left;  overflow: hidden; text-align: center; width: 136px !important; margin-right: 47px; }
+
+.mod-imglist-inner .imglist-img { display: block; border: 2px solid #CBCBCB; width: 132px;}
+
+.mod-imglist-inner .imglist-tit { display: block; width: 90%; height: 30px; line-height: 28px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0 auto; font-size: 12px; }
+
+.mod-imglist-inner img { display: block;  background: #e4e4e4; }
+
+.i-imgs { text-align: center; }
+
+.i-imgs a { filter: Alpha(opacity=90); opacity: 0.9; }
+
+.i-imgs a:hover { filter: Alpha(opacity=100); opacity: 1; }
